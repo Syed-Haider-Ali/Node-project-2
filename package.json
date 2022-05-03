@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_project",
+  "version": "16.14.2",
+  "description": "a simple website",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Haider-Ali/Node-project-2.git"
+  },
+  "author": "Syed Haider Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syed-Haider-Ali/Node-project-2/issues"
+  },
+  "homepage": "https://github.com/Syed-Haider-Ali/Node-project-2#readme"
+}
