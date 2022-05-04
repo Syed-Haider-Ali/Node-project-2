@@ -1,6 +1,7 @@
 const http=require('http');
 const url=require('url');
 const fs=require('fs');
+const PORT = process.env.PORT || 5000
 
         // its all till 9th video of Node
 // http.createServer(function(req,res){
@@ -39,5 +40,5 @@ http.createServer(function(req,res){
         res.end();
         console.log('Incomming request:', req.url,': ', q.pathname )
     })
-}).listen(8080)
+}).listen(PORT)
 console.log('server listening on port 8080...');
