@@ -1,4 +1,4 @@
-const http=require('http');
+const https=require('https');
 const url=require('url');
 const fs=require('fs');
 const PORT = process.env.PORT || 5000
@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000
 
         // video 10
 
-http.createServer(function(req,res){
+https.createServer(function(req,res){
     let q = url.parse(req.url, true);
     let pathName = '.'+ q.pathname;
     if(pathName == './'){
